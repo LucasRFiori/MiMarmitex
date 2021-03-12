@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(../../imagens/fundo.jpg) no-repeat center;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+.align{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+#container {
+	width: 400px;
+	height: auto;
+	background-color: rgba(255,255,255,0.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input {
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email {
+	background-image: url(../../imagens/icone-email.png);
+	background-size: 23px;
+}
+
+input.usuario{
+	background-image: url(../../imagens/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(../../imagens/icone-cadeado.png);
+}
+
+input.cpf{
+	background-image: url(../../imagens/ident_icon.png);
+	background-size: 25px;
+}
+input.submit {
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+
+}
+
+.align a{
+	color: darkmagenta;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.align a:visited{
+	color:darkmagenta;
+}
